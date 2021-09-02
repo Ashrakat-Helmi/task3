@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    border-bottom: #333 1px solid;
+}
+   
+form{
+    border: 1px black solid;
+    border-radius: 20px ;
+  
+    margin: auto;
+    padding: 20px;
+}
+.font1{
+    font-family: 'Hina Mincho', serif;
+    font-weight: bold;
+}
+.font2{
+    font-family: 'Ma Shan Zheng', cursive;
+    
+    font-size: 25px;
+}
+.style{
+    border: 1px black solid;
+    border-radius: 20px ;
+  
+}
+@media(max-width :750px){
+    .style{
+        margin-top: 20px;
+    }
+    .style h1 {
+        font-size: 20px;
+    }
+}
+.AddStyle{
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.dark{
+    background-color: black;
+    color: white;
+}
