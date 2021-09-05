@@ -19,52 +19,49 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
     <h1 class="navbar-brand font1"> sTyLe</h1>
 
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <button type="submit" class="btn btn-dark ">Dark M0od</button>
-      </li>
+        <li class="nav-item active">
+            <button id="btnMood" type="submit" class="btn btn-dark ">Dark M0od</button>
+        </li>
 
     </ul>
+</nav>
 
-  </nav>
-
-
-  <div class="container mt-2">
+<div class="container mt-2">
     <div class="row">
-      <div class="col-lg-6 font2">
+        <div class="col-lg-6 font2">
 
-        <form>
-          <div class="form-group">
-            <label for="width" class="ml-1">Width</label>
-            <input type="text" class="form-control rounded-pill" id="width" aria-describedby="emailHelp"
-              placeholder="please enter width with px">
-          </div>
-          <div class="form-group">
-            <label for="Hight" class="ml-1">Hight</label>
-            <input type="text" class="form-control rounded-pill" id="Hight" placeholder="please enter hight with px">
-          </div>
-          <div class="form-group">
-            <label for="backGroundColor" class="ml-1">BackGroundColor</label>
-            <input type="text" class="form-control rounded-pill" id="backGroundColor">
-          </div>
+            <div class="form1">
+                <div class="form-group">
+                    <label for="width" class="ml-1">Width</label>
+                    <input type="text" class="form-control rounded-pill" id="width" aria-describedby="emailHelp"
+                        placeholder="please enter width with px">
+                </div>
+                <div class="form-group">
+                    <label for="Hight" class="ml-1">Hight</label>
+                    <input type="text" class="form-control rounded-pill" id="Hight"
+                        placeholder="please enter hight with px">
+                </div>
+                <div class="form-group">
+                    <label for="backGroundColor" class="ml-1">BackGroundColor</label>
+                    <input type="text" class="form-control rounded-pill" id="backGroundColor">
+                </div>
 
-          <button type="submit" class="btn btn-info btn-block rounded-pill">Done</button>
-        </form>
-
-
-      </div>
-      <div class="col-lg-6">
-        <div class="style">
-          <h1 class="text-center  font1">Your Style</h1>
-          <div class="AddStyle"></div>
+                <button  id="done" type="submit" class="btn btn-info btn-block rounded-pill">Done</button>
+            </div>
         </div>
-      </div>
+
+        <div class="col-lg-6">
+            <div id="style" class="style">
+              <h1 class="text-center  font1">Your Style</h1>
+              <div id="styleAdded" class="AddStyle"></div>
+            </div>
+          </div>
     </div>
-  </div>
-  
+</div>
+
  
   <script src="./js/main.js"></script>
 </body>
